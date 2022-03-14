@@ -6,7 +6,7 @@ namespace internet_programming_class
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("作業都在分支裡面!");
         }
     }
 }
