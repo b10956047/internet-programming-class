@@ -7,6 +7,7 @@ namespace _220314
         static void Main(string[] args)
         {
             Console.WriteLine("請輸入一個數字:");
+
             var input = Console.ReadLine();
             int num = int.Parse(input);
 
