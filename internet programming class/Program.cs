@@ -6,7 +6,13 @@ namespace internet_programming_class
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("作業都在分支裡面!");
+            MyRandom(1,100);
+
+           static private int MyRandom(int minNum, int maxNum)
+           {
+                Random random = new Random();
+                return random.Next(minNum, maxNum + 1);
+           }
         }
     }
 }
